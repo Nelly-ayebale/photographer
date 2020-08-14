@@ -1,0 +1,56 @@
+body {
+    background-color: yellow;
+}
+
+h1 {
+    color: crimson;
+    text-align: center;
+    
+}
+
+h2 {
+    color: darkblue;
+    font-style: italic;
+    font-size: 20px;
+
+}
+.services {
+    columns: 4;
+    column-fill: balance;
+    display: flex;
+    
+}
+.packages {
+    columns: 1
+    float: left;
+    border: 5px solid red;
+}
+p {
+    color: black;
+    font-style: bold;
+    font-size: 30px;
+}
+.nature {
+    columns: 1;
+    float: center;
+    border: 5px solid red;
+    background-color: lightskyblue;
+    
+}
+.weddings {
+    columns: 1;
+    float: right;
+    border: 5px solid red;
+    background-color: lightgreen
+    
+}
+.bold {
+    color: black;
+    font-size: 20px;
+    font-style: bold;
+    background-color: lightseagreen;
+}
+img {
+    border: 50px solid green;
+    padding: 60px;
+}
